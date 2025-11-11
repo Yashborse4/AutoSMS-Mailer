@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translatable="false">SmsEmailForwarder</string>
+    <string name="setup_title" translatable="false">Allow background operations</string>
+    <string name="setup_desc" translatable="false">To reliably forward SMS to email, please:\n\n1) Grant SMS &amp; notification permissions\n2) Allow battery optimization exemption\n3) Enable Auto-start (OEM-specific)</string>
+    <string name="toggle_bg_service" translatable="false">Enable persistent background service</string>
+    <string name="status_running" translatable="false">Service: Running</string>
+    <string name="status_stopped" translatable="false">Service: Stopped</string>
+    <string name="btn_view_history" translatable="false">View history</string>
+    <string name="btn_settings" translatable="false">Configure email</string>
+    <string name="settings_title" translatable="false">Email settings</string>
+    <string name="btn_request_perms" translatable="false">Grant SMS/Notifications</string>
+    <string name="btn_battery_opt" translatable="false">Allow ignore battery optimizations</string>
+    <string name="btn_autostart" translatable="false">Open Auto-start settings</string>
+    <string name="btn_test_email" translatable="false">Send test email</string>
+    <string name="setup_note" translatable="false">Note: On Xiaomi/Oppo/Vivo/Realme/Samsung, manually enable Auto-start, Background data, and Battery unrestricted.</string>
+    <string name="history_title" translatable="false">Sent messages</string>
+    <string name="detail_title" translatable="false">Message details</string>
+    <string name="label_from" translatable="false">From</string>
+    <string name="label_time" translatable="false">Time</string>
+    <string name="label_status" translatable="false">Status</string>
+    <string name="label_error" translatable="false">Error</string>
+    <string name="filter_all" translatable="false">All</string>
+    <string name="filter_sent" translatable="false">Sent</string>
+    <string name="filter_failed" translatable="false">Failed</string>
+    <string name="search_hint" translatable="false">Search sender or message…</string>
+    <string name="btn_resend" translatable="false">Resend</string>
+    <string name="btn_delete" translatable="false">Delete</string>
+    <string name="menu_clear" translatable="false">Clear all</string>
+    <string name="confirm_clear_title" translatable="false">Clear all logs?</string>
+    <string name="confirm_clear_msg" translatable="false">This will permanently delete all history.</string>
+    <string name="ok" translatable="false">OK</string>
+    <string name="cancel" translatable="false">Cancel</string>
+</resources>
