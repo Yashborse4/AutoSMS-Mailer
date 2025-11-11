@@ -52,7 +52,7 @@ class EmailForegroundService : Service() {
                 val toEmail = EmailConfig.toEmail(this@EmailForegroundService)
                 val useSsl = EmailConfig.useSsl(this@EmailForegroundService)
 
-                if (host.isBlank() || username.isBlank() || password.isBlank() || toEmail.isBlank()) {
+                if (username.isBlank() || password.isBlank() || toEmail.isBlank()) {
                     throw IllegalStateException("Email config incomplete. Open Settings to configure.")
                 }
 
